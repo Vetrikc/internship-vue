@@ -13,13 +13,6 @@ defineProps({
   <div
     class="relative bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-2 hover: shadow-xl"
   >
-    <img
-      :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'"
-      alt="Like"
-      class="absolute top-8 left-8"
-      @click="onClickFavorite"
-    />
-
     <img :src="imageUrl" alt="Sneaker" />
 
     <p>{{ title }}</p>
